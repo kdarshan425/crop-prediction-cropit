@@ -67,6 +67,122 @@
         label{
             font-family: 'Raleway', sans-serif;
         }
+         /* Top Nav*/
+.topnav {
+    padding-top: 1px;
+    background: #ffffffbd;
+  transition: ease-in-out all 0.4s;
+  box-shadow: 0px 0px 20px 0px rgb(73 93 207 / 20%);
+  width: 100%;
+  position: fixed;
+  
+  color: white;
+  overflow: hidden;
+  height: 60px;
+  top: 0;
+  z-index: 100;  
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 90;
+  background: #ffffff;
+  transition: ease-in-out all 0.4s;
+  box-shadow: 0px 0px 20px 0px rgb(73 93 207 / 20%);
+  
+}
+
+a:hover{
+    background: #f2f2f2;
+    transition: all ease-in-out 0.5s;
+}
+
+.bs{
+    height: 40px; 
+    width: 40px ;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;   
+    border-radius: 50%;
+}
+
+
+.topnav a {
+    
+    color: white;
+    float: right;
+  display: block;
+  
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: 'Raleway', sans-serif;
+}
+
+.topnav a:link{
+    text-decoration: none;
+    color:black;
+}
+.topnav a:visited{
+    text-decoration: none;
+    color: black;
+}
+.topnav a:hover{
+   text-decoration: none;
+   color: black;
+   
+}
+.topnav a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+a button{
+    background: #000;
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 10px;
+}
+
+a button:hover{
+    background: white;
+    color: black;
+    transition: all ease-in-out 0.5s;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: fixed;overflow: hidden}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    
+  }
+}
+.bs{
+    background: white;
+}
       </style>
 </head>
 <body>
