@@ -70,15 +70,19 @@
       </style>
 </head>
 <body>
-    
+<nav>         
+        <div class="topnav" id="myTopnav">
+            <a style="height: 60px;"></a>                
+            <a style="display:block" href="/"> PREDICT</a>
+            <a style="display:block" href="https://crop-it.herokuapp.com/">EXIT</a>        
+        
+        </div>
+    </nav>
      <div style="width:100%;height:auto;background: url(img/bg.jpg);padding-top:70px;">
         <div style="padding:40px;" class="container">
         <center><h1 style="color:black;font-family: 'Raleway', sans-serif;">Enter details </h1></center>
         </div>    
     </div>
-
-
-
     <div class="container">
     <div class="container">
             <div style="padding-top:20px;" class="container-1">
