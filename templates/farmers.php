@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200;1,600;1,900&display=swap" rel="stylesheet">
     
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Archivo:wght@300&family=Orbitron:wght@500&display=swap" rel="stylesheet">
-    <title>FrontendGang | Update Profile</title>
+    <title>Cropit | Predict Crop</title>
     <link rel="stylesheet" type="text/css" href="styles/header.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
     <!-- Bootstrap CSS -->
@@ -70,10 +70,7 @@
       </style>
 </head>
 <body>
-    <?php include 'partials/header.php';
-     include 'partials/dbconnect.php';?>
-
-
+    
      <div style="width:100%;height:auto;background: url(img/bg.jpg);padding-top:70px;">
         <div style="padding:40px;" class="container">
         <center><h1 style="color:black;font-family: 'Raleway', sans-serif;">Enter details </h1></center>
@@ -145,7 +142,7 @@
             </div>
         </div>
     </div>
-    <?php include 'partials/footer.php'; ?>
+    
     <script>
      setTimeout(function () {
   
